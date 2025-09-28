@@ -1,0 +1,14 @@
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+    gap: 80px;
+}
+
+.project {
+    width: 33.33%;
+}
+
+.project img {
+    width: 350px;
+    height: 200px;
+}

@@ -1,0 +1,60 @@
+.hero {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+    gap: 40px;
+    color: #FFF;
+    width: 65%;
+}
+.banner {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.hero h1 {
+    font-size: 65px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.hero h1 span {
+    background: linear-gradient(270deg,#a2c9f7 10%,#0b6bf3 100%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero h2 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    width: 75%;
+    line-height: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.hero-buttons a {
+    color: #FFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.hero-buttons a:first-child {
+    background: linear-gradient(270deg,#a2c9f7 10%,#0b6bf3 100%);
+    padding: 15px 25px;
+    border-radius: 50px;
+}
+
+.hero-buttons a:last-child {
+    border-radius: 50px;
+    border:2px solid #FFF;
+    padding: 15px 42px;
+}

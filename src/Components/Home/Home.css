@@ -1,0 +1,26 @@
+.header {
+    margin: 30px 10px;
+    justify-content: space-between;
+    color: #FFF;
+}
+.header, .nav-links {
+    display: flex;
+
+}
+
+
+
+.nav-links {
+    gap: 30px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.anchar-link {
+    text-decoration: none;
+    color: #FFF;
+    transition: color 0.3s ease;
+}
+.anchor-link:hover {
+  color: #0b6bf3; /* Text color on hover */
+}
