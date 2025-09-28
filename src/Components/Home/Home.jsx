@@ -5,7 +5,22 @@ import "./Home.css";
 export const Home = () => {
   return (
     <div className="header">
-      <div className="logo">Frontend Developer</div>
+      <motion.div
+      className="logo"
+      animate={{
+        y: [0, -5, 0],       // slight vertical bounce
+        opacity: [0.8, 1, 0.8], // gentle fade
+      }}
+      transition={{
+        duration: 2,
+        repeat: Infinity,
+        repeatType: "mirror",
+        ease: "easeInOut",
+      }}
+      style={{ display: "inline-block" }}
+    >
+      Frontend Developer
+    </motion.div>
       <div className="navigation">
         <ul className="nav-links">
           <motion.li className="nav-link" whileHover={{ scale: 1.1, y: -3 }}

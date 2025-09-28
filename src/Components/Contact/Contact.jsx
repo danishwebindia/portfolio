@@ -89,7 +89,7 @@ const Contact = () => {
               ref={messageRef}
               placeholder="Enter your message"
             ></textarea>
-            <ReCAPTCHA sitekey="6LdMENcrAAAAAKg6L1XM_3E3Jnqf9X4Cstj7bHBg" onChange={onChange} />
+            <ReCAPTCHA sitekey="6LfZo9crAAAAAPMDRVcesqsIekk2P87dz6yRB5Dx" onChange={onChange} />
             <motion.button whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.8 }} type="submit">Submit now</motion.button>
           </form>
