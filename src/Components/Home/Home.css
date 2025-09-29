@@ -24,3 +24,50 @@
 .anchor-link:hover {
   color: #0b6bf3; /* Text color on hover */
 }
+
+.mobile {
+    display: none;
+}
+.hem-burger, .close {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+}
+
+
+@media (max-width:1024) {
+  
+}
+
+@media (max-width:768px) {
+  
+}
+
+@media (max-width:550px) {
+  .mobile {
+    display: block;
+  }
+  .header {
+    margin-left: 0;
+  }
+ .header, .nav-links.open, .nav-link, .anchar-link {
+    display: block;
+  }
+
+  .nav-links {
+    position: fixed;
+    top:60px;
+    width: 100%;
+    background: #302f2f;
+    display: none;
+  }
+
+  .anchar-link {
+    padding: 15px;
+  }
+
+  .anchar-link:hover {
+    background: #202020;
+  }
+
+}

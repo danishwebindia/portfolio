@@ -12,3 +12,24 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+
+@media (max-width:1024) {
+  .container {
+    width: auto;
+    padding: 20px;
+  }
+}
+
+@media (max-width:768px) {
+  .container {
+    width: auto;
+    padding: 20px;
+  }
+}
+
+@media (max-width:550px) {
+  .container {
+    width: auto;
+    padding: 20px;
+  }
+}

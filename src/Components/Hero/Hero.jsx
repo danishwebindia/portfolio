@@ -5,7 +5,7 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-    <div id='home' className='hero'>
+    <div className='hero'>
         <motion.img 
         initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}

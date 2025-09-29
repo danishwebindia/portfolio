@@ -34,7 +34,7 @@ const Contact = () => {
       nameRef.current.value = "";
       emailRef.current.value = "";
       messageRef.current.value = "";
-      setShowMsg(res.message);
+      setShowMsg('Message sent successfully!');
     }
   };
   function onChange(value) {

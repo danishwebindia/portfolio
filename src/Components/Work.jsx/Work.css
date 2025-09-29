@@ -1,6 +1,6 @@
 .projects {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;   
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 80px;
 }
 
@@ -11,4 +11,24 @@
 .project img {
     width: 350px;
     height: 200px;
+}
+
+@media (max-width:1024) {}
+
+@media (max-width:768px) {}
+
+@media (max-width:550px) {
+    .section>h1 {
+        font-size: 35px;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .project,.project img {
+        width: 100%;
+    }
+    
+
 }
