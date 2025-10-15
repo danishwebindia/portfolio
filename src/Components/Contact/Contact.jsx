@@ -52,12 +52,12 @@ const Contact = () => {
             can contact anytime.
           </p>
           <ul>
-            <li>
+            {/* <li>
               <img src={mail} alt="" /> <span>danishwebindia@gmail.com</span>
             </li>
             <li>
               <img src={call} alt="" /> <span>+91-9368269020</span>
-            </li>
+            </li> */}
             <li>
               <img src={location} alt="" /> <span>Delhi India</span>
             </li>
